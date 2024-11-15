@@ -47,7 +47,7 @@ class student extends person{
 
 }
 
-public class Main{
+public class Inheritance{
     public static void main(String[] args){
         student s = new student("a", "pradeep", 24);
         s.display();
@@ -72,7 +72,7 @@ class truck extends vehicle{
         System.out.println("type truck");
     }
 }
-public class Main{
+public class Inheritance{
     public static void main(String[] a){
         vehicle v = new bike();
         v.type();
@@ -93,7 +93,7 @@ class sparrow extends Bird{
 
     }
 }
-class Main{
+class Inheritance{
     public static void main(String[] a){
         Bird s = new sparrow();
         s.fly();
@@ -124,7 +124,7 @@ class Derived extends Base {
 }
 
 // Main class to test constructor chaining
-public class Main {
+public class Inheritance {
     public static void main(String[] args) {
         // Creating an object of Derived class
         Derived derivedObject = new Derived(10, 20);
@@ -148,7 +148,7 @@ class child extends parent{
       System.out.println(id);
     }
 }
-class Main{
+class Inheritance{
     public static void main(String[] a){
         child c = new child();
        c.method();
@@ -184,7 +184,7 @@ class Department extends Company {
 }
 
 // Main class to test the behavior
-public class Main {
+public class Inheritance {
     public static void main(String[] args) {
         Department dept = new Department();
 
